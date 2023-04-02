@@ -669,6 +669,7 @@ main {
   width: 16%;
 }
 
+
 .btn_menu {
   width: 100%;
   min-height: 4em;
@@ -853,6 +854,11 @@ div.content1:nth-child(5) {
     font-size:large;
     margin: 0 auto;
   }
-  
+  .category-heading {
+    text-align: center;
+    margin-bottom: 0%;
+    border-image: none;
+  }
+
 }
 
