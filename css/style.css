@@ -758,6 +758,21 @@ div.content1:nth-child(5) {
   animation: fade 4.5s 0.5s ease-in forwards;
 }
 
+.section-1 .card {
+  animation: 3.1s ease-out 1.25s both card;
+}
+
+@keyframes card {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
 .Loader {
   font-size: 4em;
   position: fixed;
